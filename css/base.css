@@ -1,16 +1,30 @@
-.fill { 
-    height: 100%;
-    background-color: white;
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    line-height: 100%;
+a {
+	color:gray !important;
+
+}
+
+a:hover {
+	color:#343434 !important;
+}
+
+.container-fluid, .container{
+	 font-family: 'Open Sans', sans-serif;
 }
 
 html,body {
 	height:100%;
 }
 
-.boxes {
+img 
+{
+	max-width: 50%;
+}
+
+.centered 
+{
 	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }

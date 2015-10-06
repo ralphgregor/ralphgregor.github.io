@@ -1,42 +1,26 @@
 {% include top.html %}
 <body>
 	<!-- intro -->
-	<div id="fullpage">
-		<div class="section fill">
-			<h1>Hey there!</h1>
-			<p>I'm still working on this site. Come back soon!</p>
-			<p>Twitter: <a href="http://www.twitter.com/rgwho">@rgwho</a></p>
-			<p>Instagram: <a href="http://www.instagram.com/rgaquino">@rgaquino</a></p>
+	<div class="container centered">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<img src="/images/avatar.jpg" alt="me" class="img-circle">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+			<br><p>Hi there! My name is RALPH GREGOR AQUINO. I'm still working on this site. I'll try to have it up and running before 2015 ends. For the mean time, you can follow or contact me using social media. I'm (almost) everywhere! Come back soon!</p>
+			<ul class="list-inline">
+  				<li><a href="http://twitter.com/rgwho"><i class="fa fa-twitter fa-2x"></i></a></li>
+  				<li><a href="http://instagram.com/rgaquino"><i class="fa fa-instagram fa-2x"></i></a></li>
+  				<li><a href="http://www.last.fm/user/aquinorg"><i class="fa fa-lastfm fa-2x"></i></a></li>
+  				<li><a href="https://pinterest.com/rgwho"><i class="fa fa-pinterest fa-2x"></i></a></li>
+  				<li><a href="https://github.com/rgaquino"><i class="fa fa-github fa-2x"></i></a></li>
+  				<li><a href="https://ph.linkedin.com/pub/ralph-gregor-aquino/74/a23/6b1"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+			</ul>
+			</div>
 		</div>
 	</div>
 	<!-- /intro -->	
-
-	<!-- blog -->
-<!-- 	<div class="container-fluid blog">
-		<br>
-		<h4>Blog Posts</h4>
-		{% for post in site.posts %}
-		   	<span><small>{{ post.date | date_to_string }}</small></span> <a href="{{ post.url }}">{{ post.title }}</a><br>
-		{% endfor %}
-		<br>
-	</div> -->
-	 --><!-- /blog
-
-	<!-- <div class="container-fluid boxes">
-		<div class="row">
-			<div class="col-md-3" style="background-color:blue">
-				BLOCK 1
-			</div>
-			<div class="col-md-3" style="background-color:red">
-				BLOCK 2
-			</div>
-			<div class="col-md-3" style="background-color:green">
-				BLOCK 3
-			</div>
-			<div class="col-md-3" style="background-color:blue">
-				BLOCK 1
-			</div>
-		</div>
-	</div> -->
 </body>
-</html>
+{% include bottom.html %}
