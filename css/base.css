@@ -26,8 +26,9 @@ img
 
 
 html {
-    -webkit-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 200%;
 }
+
 .container, .container-fluid
 {
 	font-family: "Source Sans Pro", sans-serif;
