@@ -27,10 +27,11 @@ img
 
 .container, .container-fluid
 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;	
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 400;
 	font-size: 12pt;
 	color: #505050;
+	line-height: 1.5;
 }
 
 .blog-title
@@ -45,9 +46,13 @@ img
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 25px;
-	/*background-image: url("/images/Bamboo.jpg");*/
 	background-size: cover;
 	line-height: 60%;
+}
+
+.menu-title
+{
+	font-size: 18pt;
 }
 
 .left-header
@@ -71,9 +76,9 @@ a {
 }
 
 a:hover {
-	color: #6367d4 !important;
+	/*color: #6367d4 !important;*/
 	text-decoration: none !important;
-	/*color:#303030 !important;*/
+	color:#303030 !important;
 }
 
 .right-header
@@ -105,6 +110,33 @@ a:hover {
 	padding-bottom: 25px;
 }
 
+/*.blog-excerpt
+{
+	line-height: 200%;
+}*/
+
+.blog-post-content
+{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.blog-post-title
+{
+	background-color: white;
+	font-family: 'Quicksand', sans-serif;
+	letter-spacing: -1px;
+	font-size: 30pt;
+}
+
+.blog-post-header
+{
+	padding-top: 100px;
+	padding-bottom: 75px;
+	background-image: url("/images/christopher-muccioli-feels-1920x1200.jpg");
+	background-size: cover;
+}
+
 .link-centered
 {
 	padding-bottom: 25px;
@@ -133,8 +165,25 @@ a:hover {
 .footer
 {
 	background-color: #505050;
-	padding-top: 40px;
+	padding-top: 20px;
 	padding-bottom: 10px;
+}
+
+.menu
+{
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	background-size: cover;
+	line-height: 60%;
+}
+
+.menu-item
+{
+	padding-top: 3px;
+	padding-bottom: 3px;
+	line-height: 60%;
 }
 
 a.footer:hover {
@@ -150,25 +199,24 @@ a.footer:hover {
 .footer-left
 {
 	vertical-align: text-bottom;
-	text-align: center;
+    text-align: left;
 }
 
 .footer-right
 {
 	vertical-align: text-bottom;
-	text-align: center;
+    text-align: right;
 }
 
-@media screen and (min-width: 48em){
-	.footer-left
+@media screen and (max-width: 70em){
+	.footer-left,  .footer-right
 	{
 		vertical-align: text-bottom;
-		text-align: left;
+		text-align: center;
 	}
+}
 
-    .footer-right
-    {
-		vertical-align: text-bottom;
-        text-align: right;
-    }
+.navbar-default
+{
+	background-color: white;
 }
