@@ -27,8 +27,3 @@ Kamaiyah stands out from her peers, though, with her appealingly natural presenc
 This poise is what makes Kamaiyah someone worth spending time with. There's a great song on here in the Too $hort tradition ("Niggas") about loving sex, and severe disinterest in being obligated to have it with one person. But it’s not a sexual tall-tale meant to make Kamaiyah sound superhuman: "Hit the back room come back, my dress undid/ He gon’ zip it back before they notice we be fucking," she sings playfully. On "Freaky Freaks," she falls asleep in her Jeep because she’s too high to drive. This is: a) not something it’s easy to imagine Nicki Minaj rapping about, and b) something an affable-everyman like Devin the Dude has probably done in real life. Approachability is a cornerstone of Kamaiyah’s style.
 
 And then, of course, there’s her good-life ode "How Does It Feel." Despite some stiff competition, it remains her best song, something she implicitly acknowledges by reprising it for the introductory track "I’m On." It sounds even better on Good Night without eclipsing anything around it. The emotions on the tape—joy, yearning—are never better expressed than in the two questions she poses in the chorus: "How does it feel to be rich" and "How does it  feel to just live?" The underlying subtext—that these might be two versions of the same question—is present, without insisting on itself. Just like everything else on Good Night, the essential substance is just there, a cocked eyebrow and a meaningful pause from someone who’s confident enough to put it all out there in her own way and allow you a minute to catch up.
-
-{% if post.comments %}
-
-
-{% endif %}
