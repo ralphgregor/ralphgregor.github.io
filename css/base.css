@@ -24,12 +24,11 @@ img
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300);
 
-
 .container, .container-fluid
 {
 	font-family: "Source Sans Pro", sans-serif;
 	font-weight: 400;
-	font-size: 12pt;
+	font-size: 1.3em;
 	color: #505050;
 	line-height: 1.5;
 	letter-spacing: 0.25px;
