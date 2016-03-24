@@ -1,26 +1,40 @@
 {% include top.html %}
-<body>
-	<!-- intro -->
-	<div class="container centered">
-		<div class="row">
-			<div class="col-md-6 col-md-offset-3">
-				<img src="/images/avatar.jpg" alt="me" class="img-circle">
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-6 col-md-offset-3">
-			<br><p>Hi there! I'm still working on this site. Come back soon! :)</p>
-			<ul class="list-inline">
-  				<li><a href="http://twitter.com/rgwho"><i class="fa fa-twitter fa-2x"></i></a></li>
-  				<li><a href="http://instagram.com/rgaquino"><i class="fa fa-instagram fa-2x"></i></a></li>
-  				<li><a href="http://www.last.fm/user/aquinorg"><i class="fa fa-lastfm fa-2x"></i></a></li>
-  				<li><a href="https://pinterest.com/rgwho"><i class="fa fa-pinterest fa-2x"></i></a></li>
-  				<li><a href="https://github.com/rgaquino"><i class="fa fa-github fa-2x"></i></a></li>
-  				<li><a href="https://ph.linkedin.com/in/rgaquino"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
-			</ul>
-			</div>
+
+<div class="container-fluid content">
+	{% for post in paginator.posts%}
+	<div class="row blog-post">
+		<div class="col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1">
+			<p class="blog-date">{{ post.date | date: "%-d %B %Y" }}</p>
+			<a href="{{ post.url }}"><h2 class="blog-title">{{ post.title }}</h2></a>
+			{{ post.excerpt }}
 		</div>
 	</div>
-	<!-- /intro -->	
-</body>
+	{% endfor %}
+	<div class="row link-centered">
+		<div class="col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1">
+			{% if paginator.previous_page != nil %}
+			<a class="btn btn-default" href="{{ paginator.previous_page_path  }}" role="button">NEXT</a>
+			{% endif %}
+			{% if paginator.next_page != nil %}
+			<a class="btn btn-default" href="{{ paginator.next_page_path  }}" role="button">PREVIOUS</a>
+			{% endif %}
+		</div>
+	</div>
+</div>
+<!--
+<div class="container-fluid content-gray">
+	<div class="row">
+		<div class="col-xs-10 col-xs-offset-1 col-md-5 col-md-offset-1 blog-post">
+			<p class="blog-date">BIO</p>
+			<hr>
+			<p>I'm a developer / designer currently living in Quezon City, Philippines. I like all kinds of pop culture like all millennials. Pizza dog is my spirit animal.</p>
+		</div>
+		<div class="col-xs-10 col-xs-offset-1 col-md-5 blog-post">
+			<p class="blog-date">CONTACT</p>
+			<hr>
+			<p><small>EMAIL</small>&nbsp;&nbsp;&nbsp;ralphgregoraquino@gmail.com</p>
+			<p><small>SKYPE</small>&nbsp;&nbsp;&nbsp;ralphgregoraquino</p>
+		</div>
+	</div>
+</div>-->
 {% include bottom.html %}
