@@ -32,6 +32,7 @@ img
 	font-size: 12pt;
 	color: #505050;
 	line-height: 1.5;
+	letter-spacing: 0.25px;
 }
 
 .blog-title
@@ -137,6 +138,14 @@ a:hover {
 	background-size: cover;
 }
 
+.blog-post-related
+{
+	padding-top: 100px;
+	padding-bottom: 75px;
+	background-color: #F2F4F5;
+	background-size: cover;
+}
+
 .link-centered
 {
 	padding-bottom: 25px;
@@ -164,7 +173,7 @@ a:hover {
 
 .footer
 {
-	background-color: #505050;
+/*	background-color: #505050;*/
 	padding-top: 20px;
 	padding-bottom: 10px;
 }
