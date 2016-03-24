@@ -4,7 +4,7 @@
 	{% for post in site.posts%}
 	<div class="row blog-post">
 		<div class="col-xs-12 col-xs-offset-0 col-md-8 col-md-offset-2">
-			<p class="blog-date">{{ post.date | date: "%-d %B %Y" }}</p>
+			<p class="small-caps">{{ post.date | date: "%-d %B %Y" }}</p>
 			<a href="{{ post.url }}"><h2 class="blog-title">{{ post.title }}</h2></a>
 			<p class="blog-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
 		</div>
@@ -20,6 +20,5 @@
 			{% endif %}
 		</div>
 	</div>-->
-</div><!--
-{% include bio.html %}-->
+</div>
 {% include bottom.html %}

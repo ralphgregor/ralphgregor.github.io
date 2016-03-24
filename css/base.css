@@ -52,7 +52,7 @@ html {
 	padding-top: 50px;
 	padding-bottom: 25px;
 	background-size: cover;
-	line-height: 60%;
+	line-height: 30%;
 }
 
 .menu-title
@@ -100,7 +100,7 @@ a:hover {
     z-index: 2
 }
 
-.blog-date
+.small-caps
 {
 	text-transform: uppercase;
 	font-size: 10pt;
@@ -134,12 +134,19 @@ a:hover {
 	font-size: 30pt;
 }
 
+.blog-post-date
+{
+	padding: 7px;
+	background-color: white;
+}
+
 .blog-post-header
 {
 	padding-top: 100px;
 	padding-bottom: 75px;
-	background-image: url("/images/christopher-muccioli-feels-1920x1200.jpg");
+	background-image: url("/images/bored-millenials.jpg");
 	background-size: cover;
+	background-position: center;
 }
 
 .blog-post-related
@@ -199,10 +206,6 @@ a:hover {
 	line-height: 60%;
 }
 
-a.footer:hover {
-	color:#303030 !important;
-}
-
 .center
 {
 	text-align: center;
@@ -227,9 +230,4 @@ a.footer:hover {
 		vertical-align: text-bottom;
 		text-align: center;
 	}
-}
-
-.navbar-default
-{
-	background-color: white;
 }

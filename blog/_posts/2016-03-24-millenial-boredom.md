@@ -1,6 +1,6 @@
 ---
 layout: blogpost
-title: Bored of Being Bored&#58 The Paradox of Millennial Boredom 
+title: The Paradox of Millennial Boredom
 ---
 
 Kamaiyah’s debut mixtape Good Night in the Ghetto initially comes across carefree and effortless, which might seduce you into thinking it was easy to make. The songs are simple, unfussy, and full of space, with a low-key mood meant less for a raucous house party and more for a casual basement hangout. Kamaiyah’s calling-card song, "How Does It Feel," is here, and it’s as wistful and sunny as it was when it came out last year. But now it’s joined by 15 other tracks that hit on the same energy: It feels good to be young, but it’s even better to be smart enough to appreciate how fleeting that feeling is.
