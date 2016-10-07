@@ -1,234 +1,185 @@
 /*
 .container-fluid, .container{
-	 font-family: 'Open Sans', sans-serif;
+   font-family: 'Open Sans', sans-serif;
 }
 
 html,body {
-	height:100%;
+  height:100%;
 }
 
 img 
 {
-	max-width: 50%;
+  max-width: 50%;
 }
 
 .centered 
 {
-	text-align: center;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }*/
 
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600);
 
 html {
-	-webkit-text-size-adjust: 200%;
+  -webkit-text-size-adjust: 200%;
 }
 
-.container, .container-fluid
-{
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 1.2em;
-	color: #505050;
-	line-height: 1.75;
-	letter-spacing: 0.25px;
+.container,
+.container-fluid {
+  color: #505050;
+  font: 1.2em/1.75em 'Source Sans Pro', sans-serif;
+  letter-spacing: 0.25px;
 }
 
-.menu
-{
-	font-family: 'Quicksand', sans-serif;
-	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 15px;
-	background-size: cover;
-	line-height: 60%;
-	/*background-color: white;
- 	width:100%;
- 	position:fixed;
- 	z-index: 1;*/
+.menu {
+  background-size: cover;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 60%;
+  padding: 30px 0 15px;
+  text-align: center;
  }
 
-.blog-title
-{
-	font-family: 'Quicksand', sans-serif;
-	letter-spacing: -1px;
+.blog-title {
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: -1px;
 }
 
-.header
-{
-	font-family: 'Quicksand', sans-serif;
-	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 25px;
-	background-size: cover;
-	line-height: 30%;
+.header {
+  background-size: cover;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 30%;
+  padding: 50px 0 25px;
+  text-align: center;
 }
 
-.menu-title
-{
-	font-size: 18pt;
+.menu-title {
+  font-size: 18pt;
 }
 
-.left-header
-{
-
-	font-family: 'Quicksand', sans-serif;
-	padding-top: 75px;
-	padding-bottom: 75px;
-    background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    width: 50%;
-    height: 100%;
-    z-index: 2;
-    line-height: 60%;
-
+.left-header {
+  background-size: cover;
+  font-family: 'Quicksand', sans-serif;
+  height: 100%;
+  line-height: 60%;
+  padding: 75px 0;
+  position: absolute;
+  overflow: hidden;
+  width: 50%;
+  z-index: 2;
 }
 
 a {
-	color:gray !important;
+  color:gray !important;
 }
 
 a:hover {
-	/*color: #6367d4 !important;*/
-	text-decoration: none !important;
-	color:#303030 !important;
+  color:#303030 !important;
+  text-decoration: none !important;
 }
 
-.right-header
-{
-	background-image: url("/images/Bamboo.jpg");
-	padding-top: 150px;
-	padding-bottom: 150px;
-	background-color: blue;
-    background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    width: 50%;
-    height: 100%;
-    z-index: 2
+.right-header {
+  background-color: blue;
+  background-image: url(/images/Bamboo.jpg);
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  padding: 150px 0;
+  position: absolute;
+  width: 50%;
+  z-index: 2
 }
 
-.small-caps
-{
-	text-transform: uppercase;
-	font-size: 10pt;
-	color: gray;
-	font-weight: 600;
-	line-height: 5%;
+.small-caps {
+  color: gray;
+  font-size: 10pt;
+  font-weight: 600;
+  line-height: 5%;
+  text-transform: uppercase;
 }
 
-.blog-post
-{
-	padding-top: 25px;
-	padding-bottom: 25px;
+.blog-post {
+  padding: 25px 0;
 }
 
-/*.blog-excerpt
-{
-	line-height: 200%;
-}*/
-
-.blog-post-content
-{
-	padding-top: 25px;
-	padding-bottom: 25px;
+.blog-post-content {
+  padding: 25px 0;
 }
 
-.blog-post-title
-{
-	background-color: white;
-	font-family: 'Quicksand', sans-serif;
-	letter-spacing: -1px;
-	font-size: 30pt;
+.blog-post-title {
+  background-color: white;
+  font: 30pt 'Quicksand', sans-serif;
+  letter-spacing: -1px;
 }
 
-.blog-post-date
-{
-	padding: 7px;
-	background-color: white;
+.blog-post-date {
+  background-color: white;
+  padding: 7px;
 }
 
-.blog-post-header
-{
-	padding-top: 200px;
-	padding-bottom: 75px;
-	background-size: cover;
-	background-position: center;
+.blog-post-header {
+  background-position: center;
+  background-size: cover;
+  padding: 200px 0 75px;
 }
 
-.blog-post-related
-{
-	padding-top: 100px;
-	padding-bottom: 75px;
-	background-color: #F2F4F5;
-	background-size: cover;
+.blog-post-related {
+  background-color: #F2F4F5;
+  background-size: cover;
+  padding: 100px 0 75px;
 }
 
-.link-centered
-{
-	padding-bottom: 25px;
-	text-align: center;
+.link-centered {
+  padding-bottom: 25px;
+  text-align: center;
 }
 
-.content
-{
-	padding-top: 20px;
-	padding-bottom: 20px;
+.content {
+  padding: 20px 0;
 }
 
-.content-gray
-{
-	background-color: #F2F4F5;
-	padding-top: 30px;
-	padding-bottom: 30px;
+.content-gray {
+  background-color: #F2F4F5;
+  padding: 30px 0;
 }
 
-.section-heading
-{
-	padding-top: 25px;
-	padding-bottom: 25px;
+.section-heading {
+  padding: 25px 0;
 }
 
-.footer
-{
-/*	background-color: #505050;*/
-	padding-top: 20px;
-	padding-bottom: 10px;
+.footer {
+  padding: 20px 0 10px;
 }
 
-.menu-item
-{
-	padding-top: 3px;
-	padding-bottom: 3px;
-	line-height: 60%;
+.menu-item {
+  line-height: 60%;
+  padding: 3px 0;
 }
 
-.center
-{
-	text-align: center;
-	vertical-align: middle;
+.center {
+  text-align: center;
+  vertical-align: middle;
 }
 
-.footer-left
-{
-	vertical-align: text-bottom;
-    text-align: left;
+.footer-left {
+  text-align: left;
+  vertical-align: text-bottom;
 }
 
-.footer-right
-{
-	vertical-align: text-bottom;
-    text-align: right;
+.footer-right {
+  text-align: right;
+  vertical-align: text-bottom;
 }
 
-@media screen and (max-width: 70em){
-	.footer-left,  .footer-right
-	{
-		vertical-align: text-bottom;
-		text-align: center;
-	}
+@media screen and (max-width: 70em) {
+
+  .footer-left,
+  .footer-right {
+    text-align: center;
+    vertical-align: text-bottom;
+  }
+
 }
