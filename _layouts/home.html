@@ -1,24 +1,26 @@
 {% include top.html %}
 {% include header.html %}
-<div class="container-fluid content">
-  {% for post in site.posts%}
-  <div class="row blog-post">
-    <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-      <p class="small-caps">{{ post.date | date: "%-d %B %Y" }}</p>
-      <h2 class="blog-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p class="blog-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+<div class="content">
+  <div class="container-fluid">
+    {% for post in site.posts%}
+    <div class="row">
+      <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 blog-post">
+        <p class="small-caps">{{ post.date | date: "%-d %B %Y" }}</p>
+        <h2 class="blog-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p class="blog-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+      </div>
     </div>
+    {% endfor %}
+    <!--<div class="row link-centered">
+      <div class="col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1">
+        {% if paginator.previous_page != nil %}
+        <a class="btn btn-default" href="{{ paginator.previous_page_path  }}" role="button">NEXT</a>
+        {% endif %}
+        {% if paginator.next_page != nil %}
+        <a class="btn btn-default" href="{{ paginator.next_page_path  }}" role="button">PREVIOUS</a>
+        {% endif %}
+      </div>
+    </div>-->
   </div>
-  {% endfor %}
-  <!--<div class="row link-centered">
-    <div class="col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1">
-      {% if paginator.previous_page != nil %}
-      <a class="btn btn-default" href="{{ paginator.previous_page_path  }}" role="button">NEXT</a>
-      {% endif %}
-      {% if paginator.next_page != nil %}
-      <a class="btn btn-default" href="{{ paginator.next_page_path  }}" role="button">PREVIOUS</a>
-      {% endif %}
-    </div>
-  </div>-->
 </div>
 {% include bottom.html %}
