@@ -206,6 +206,12 @@ a:hover {
     padding-right: 25px;
   }
 
+  .blog-post-content {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+
   .blog-post-header {
     padding: 200px 0 75px;
   }
