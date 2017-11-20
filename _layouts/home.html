@@ -5,7 +5,7 @@
   <div class="row blog-post">
     <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
       <p class="small-caps">{{ post.date | date: "%-d %B %Y" }}</p>
-      <a href="{{ post.url }}"><h2 class="blog-title">{{ post.title }}</h2></a>
+      <h2 class="blog-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <p class="blog-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
     </div>
   </div>
@@ -21,4 +21,4 @@
     </div>
   </div>-->
 </div>
-<!-- {% include bottom.html %} -->
+{% include bottom.html %}

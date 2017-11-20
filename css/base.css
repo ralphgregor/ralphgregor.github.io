@@ -26,11 +26,6 @@
   text-transform: uppercase;
 }
 
-a {
-  color:black !important;
-  font-size: 0.75em;
-}
-
 a:hover {
   color:#B9B9B9 !important;
   text-decoration: none !important;
@@ -89,13 +84,18 @@ a:hover {
 }
 
 .blog-post {
-  padding: 25px 0;
+  padding: 60px 0 0 0;
 }
 
 .blog-post-content {
   padding: 25px 0;
 }
 
+.blog-post-content h2 {
+  font: 20pt 'Roboto Slab', serif;
+  padding-top: 10px;
+  font-weight: 300;
+}
 
 .blog-post-content h3 {
   font: 20pt 'Roboto Slab', serif;
@@ -136,6 +136,33 @@ a:hover {
   padding: 400px 0 75px;
 }
 
+.blog-post-content a {
+  color:black !important;
+  border-bottom: 1.5pt solid #AB71C1;
+}
+
+.blog-post a {
+  color:black !important;
+}
+
+.blog-title a {
+  font-size: 0.75em;
+}
+
+.blog-title a:hover {
+  border-bottom: 1.5pt solid #AB71C1;
+}
+
+
+.blog-excerpt a {
+  border-bottom: 1.5pt solid #AB71C1;
+}
+
+.blog-post-header a {
+  color:black !important;
+  font-size: 0.75em
+}
+
 .blog-post-related {
   background-color: #F2F4F5;
   background-size: cover;
@@ -147,7 +174,7 @@ a:hover {
 /*****************/
 
 .footer {
-  padding: 20px 0 10px;
+  padding: 40px 0 10px;
 }
 
 .footer-left {
@@ -158,6 +185,11 @@ a:hover {
 .footer-right {
   text-align: right;
   vertical-align: text-bottom;
+}
+
+.footer a {
+  color:black !important;
+  font-size: 0.75em;
 }
 
 @media screen and (max-width: 992px) {
