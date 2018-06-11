@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600);
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400|Roboto+Slab:100,300');
-
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400|Roboto+Slab:100,300);
 
 /*****************/
 /*    COMMON     */
@@ -8,27 +7,27 @@
 
 .container,
 .container-fluid {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.15em;
-  line-height: 1.75em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.15em;
+    line-height: 1.75em;
 }
 
 .link-centered {
-  padding-bottom: 25px;
-  text-align: center;
+    padding-bottom: 25px;
+    text-align: center;
 }
 
 .small-caps {
-  font-family: 'Roboto', sans-serif;
-  font-size: 8pt;
-  font-weight: 700;
-  line-height: 5%;
-  text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 8pt;
+    font-weight: 700;
+    line-height: 5%;
+    text-transform: uppercase;
 }
 
 a:hover {
-  color:#B9B9B9 !important;
-  text-decoration: none !important;
+    color: #B9B9B9 !important;
+    text-decoration: none !important;
 }
 
 /*****************/
@@ -36,45 +35,46 @@ a:hover {
 /*****************/
 
 .header {
-  background-color: #222222;
-  color:white;
-  padding-bottom: 30px;
-  line-height: 30%;
-  padding-top: 300px;
-  text-align: left;
+    background-color: #222222;
+    color: white;
+    padding-bottom: 30px;
+    line-height: 30%;
+    padding-top: 300px;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
 }
 
 .header h2 {
-  font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 .header li a {
-  color:white !important;
-  font-size: 0.75em;
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.1em;
-  font-weight: 400;
+    color: white !important;
+    font-size: 0.7em;
+    font-family: 'source-sans-pro', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .header li a:hover {
-  color:#B9B9B9 !important;
+    color: #B9B9B9 !important;
 }
 
-
 .header-icons {
-  padding-top: 20px;
-  padding-bottom: 150px;
+    padding-top: 20px;
+    padding-bottom: 150px;
 }
 
 .header-bio {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  color: #B9B9B9;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #B9B9B9;
 }
 
 .header-menu {
-  color: white !important;
-  padding-top: 100px;
+    color: white !important;
+    padding-top: 100px;
 }
 
 /*****************/
@@ -82,92 +82,88 @@ a:hover {
 /*****************/
 
 .blog-title {
-  font-family: 'Roboto Slab', serif;
-  font-size: 2em;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
 }
 
 .blog-post {
-  padding: 60px 0 0 0;
+    padding: 60px 0 0 0;
 }
 
 .blog-post-content {
-  padding: 25px 0;
+    padding: 25px 0;
 }
 
 .blog-post-content h2 {
-  font: 20pt 'Roboto Slab', serif;
-  padding-top: 10px;
-  font-weight: 300;
+    font: 20pt 'Roboto Slab', serif;
+    padding-top: 10px;
+    font-weight: 300;
 }
 
 .blog-post-content h3 {
-  font: 20pt 'Roboto Slab', serif;
-  padding-top: 10px;
-  font-weight: 300;
+    font: 20pt 'Roboto Slab', serif;
+    padding-top: 10px;
+    font-weight: 300;
 }
 
 .blog-post-content h4 {
-  font: 15pt 'Roboto Slab', serif;
-  padding-top: 10px;
-  padding-bottom: 20px;
+    font: 15pt 'Roboto Slab', serif;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .blog-post-content img {
-  width: 100%;
+    width: 100%;
 }
 
 .blog-post-title {
-  background-color: white;
-  font: 30pt 'Roboto Slab', serif;
-  padding-left: 10px;
-  padding-right: 10px;
+    background-color: white;
+    font: 30pt 'Roboto Slab', serif;
+    padding-left: 10px;
+    padding-right: 10px;
     -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
+    box-decoration-break: clone;
 }
 
 .blog-post-date {
-  background-color: white;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  padding-left: 10px;
-  padding-right: 10px;
+    background-color: white;
+    padding: 7px 10px;
 }
 
 .blog-post-header {
-  padding: 400px 0 75px;
+    padding: 400px 0 75px;
 }
 
 .blog-post-content a {
-  color:black !important;
-  border-bottom: 1.5pt solid #AB71C1;
+    color: black !important;
+    border-bottom: 1.5pt solid #AB71C1;
 }
 
 .blog-post a {
-  color:black !important;
+    color: black !important;
 }
 
 .blog-title a {
-  font-size: 0.75em;
+    font-size: 0.75em;
 }
 
 .blog-title a:hover {
-  border-bottom: 1.5pt solid #AB71C1;
+    border-bottom: 1.5pt solid #AB71C1;
 }
 
-
 .blog-excerpt a {
-  border-bottom: 1.5pt solid #AB71C1;
+    border-bottom: 1.5pt solid #AB71C1;
 }
 
 .blog-post-header a {
-  color:black !important;
-  font-size: 0.75em
+    color: black !important;
+    font-size: 0.75em
 }
 
 .blog-post-related {
-  background-color: #F2F4F5;
-  background-size: cover;
-  padding: 100px 0 75px;
+    background-color: #F2F4F5;
+    background-size: cover;
+    padding: 100px 0 75px;
 }
 
 /*****************/
@@ -175,53 +171,52 @@ a:hover {
 /*****************/
 
 .footer {
-  padding: 40px 0 10px;
+    padding: 40px 0 10px;
 }
 
 .footer-left {
-  text-align: left;
-  vertical-align: text-bottom;
+    text-align: left;
+    vertical-align: text-bottom;
 }
 
 .footer-right {
-  text-align: right;
-  vertical-align: text-bottom;
+    text-align: right;
+    vertical-align: text-bottom;
 }
 
 .footer a {
-  color:black !important;
-  font-size: 0.75em;
+    color: black !important;
+    font-size: 0.75em;
 }
 
 @media screen and (max-width: 992px) {
 
-  .footer-left,
-  .footer-right {
-    text-align: center;
-    vertical-align: text-bottom;
-  }
+    .footer-left,
+    .footer-right {
+        text-align: center;
+        vertical-align: text-bottom;
+    }
 
-  .blog-post {
-    padding-left: 25px;
-    padding-right: 25px;
-  }
+    .blog-post {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
 
-  .blog-post-content {
-    padding-left: 25px;
-    padding-right: 25px;
-  }
+    .blog-post-content {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
 
-
-  .blog-post-header {
-    padding: 200px 0 75px;
-  }
+    .blog-post-header {
+        padding: 200px 0 75px;
+    }
 
 }
 
 @media screen and (max-width: 768px) {
 
-  .header {
-    text-align: center;
-  }
+    .header {
+        text-align: center;
+    }
 
 }

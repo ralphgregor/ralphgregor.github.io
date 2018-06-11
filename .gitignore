@@ -1,5 +1,7 @@
 _drafts/
 _site/
+.idea/
+*.iml
 .DS_Store
 Gemfile
 Gemfile.lock
